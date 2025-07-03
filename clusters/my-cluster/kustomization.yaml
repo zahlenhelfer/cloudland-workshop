@@ -4,7 +4,13 @@ resources:
 - infrastructure.yaml
 - flux-system
 #- apps.yaml
+<<<<<<< HEAD
 - istio-version.yaml
 - istio.yaml
 - grafana-credentials.yaml
+=======
+#- istio-version.yaml
+#- istio.yaml
+#- grafana-credentials.yaml
+>>>>>>> 23ba0fe (Add Kustomization manifests for apps, Grafana credentials, infrastructure, Istio, and sources)
 
