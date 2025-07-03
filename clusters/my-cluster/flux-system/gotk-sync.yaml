@@ -11,7 +11,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: ssh://git@github.com/zahlenhelfer/cloudland-workshop.git
+  url: ssh://git@github.com/zahlenhelfer/cloudland-workshop
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
