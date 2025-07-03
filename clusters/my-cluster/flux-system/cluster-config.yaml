@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cluster-config
+  namespace: flux-system
+data:
+  grafanahost: grafana.cloudland.com
+  clustername: local
+  imagepolicy: $imagepolicy
+  
