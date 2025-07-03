@@ -5,12 +5,12 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m0s
-  path: ./clusters/local
+  path: ./clusters/my-cluster
   prune: false
   sourceRef:
     kind: GitRepository
     name: flux-system
   postBuild:
     substituteFrom:
-    - kind: ConfigMap
-      name: cluster-config
+      - kind: ConfigMap
+        name: cluster-config
